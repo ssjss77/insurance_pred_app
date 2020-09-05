@@ -9,7 +9,7 @@ import numpy as np
 
 app = Flask( __name__ )
 
-model = load_model( '/Users/aisaidi/Documents/Formation_Machine_Learning/App/model_2020_09_02' )
+model = load_model( 'model_2020_09_02' )
 cols = ['age', 'sex', 'bmi', 'children', 'smoker', 'region']
 
 
